@@ -30,7 +30,6 @@ ehthumbs.db
 Thumbs.db
 
 # ─── Editor ───────────────────────────────────────────────────────────────────
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -39,7 +38,6 @@ Thumbs.db
 
 # ─── Misc ─────────────────────────────────────────────────────────────────────
 *.log
-.env
 dist/
 build/
 # Playwright
@@ -51,3 +49,4 @@ test_snapshots
 scripts/create_issues.py
 \n# TypeScript build info\nfrontend/tsconfig.tsbuildinfo
 \n# Codex CI artifacts\n.codex-artifacts/
+config.bat
