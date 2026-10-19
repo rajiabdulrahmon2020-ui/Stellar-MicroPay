@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build --webpack",
-    "start": "serve out -l 3000",
+    "dev": "node init && next dev",
+    "build": "node init && next build --webpack",
+    "start": "node init && serve out -l 3000",
     "lint": "eslint . --max-warnings=0",
     "type-check": "tsc --noEmit",
     "test": "jest --runInBand",
@@ -26,7 +26,7 @@
     "date-fns": "^4.4.0",
     "next": "16.4.0",
     "qrcode.react": "^4.2.0",
-    "react": "19.3.0",
+    "react": "19.3.1",
     "react-dom": "^19.3.1",
     "recharts": "^3.10.1"
   },
